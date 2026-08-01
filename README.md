@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="header.svg" alt="Hi, I'm Zak — Full-Stack Developer" width="100%"/>
+<img src="header.svg" alt="Hi, I'm Zakaria — Full-Stack Developer" width="100%"/>
 
 <p>
   <a href="https://zakisserious.github.io">
@@ -14,53 +14,13 @@
   </a>
 </p>
 
-<p>
-  <img src="https://img.shields.io/github/followers/zakisserious?style=for-the-badge&logo=github&color=00ff9f&logoColor=white" alt="followers"/>
-  <img src="https://img.shields.io/github/stars/zakisserious?style=for-the-badge&logo=github&color=00ff9f&logoColor=white" alt="stars"/>
-  <img src="https://komarev.com/ghpvc/?username=zakisserious&style=for-the-badge&color=00ff9f" alt="profile views"/>
-</p>
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00FF9F&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;AI+Engineer;Building+Developer+Tools;Local+LLMs+%7C+RAG+%7C+Agents;Always+Shipping." />
 
 </div>
 
 ---
 
-<details>
-
-<summary><h2 style="display:inline-block"><code>~/focus</code> — What I'm Building</h2></summary>
-
-**codebase-qa** — chat with any GitHub repository using natural language.
-
-A fully local AI assistant powered by RAG and ReAct agents. Ask anything about a codebase and get answers that point to the actual files.
-
-| Capability | What it does |
-| :--------- | :----------- |
-| AST-aware indexing | Understands code structure, not just text |
-| Ollama support | Runs entirely on local LLMs |
-| Semantic retrieval | Finds the most relevant code fast |
-| Fully local | Nothing ever leaves your machine |
-
-</details>
-
----
-
-<details>
-
-<summary><h2 style="display:inline-block"><code>~/projects</code> — Featured Projects</h2></summary>
-
-| Project | What it does |
-| :------ | :----------- |
-| [codebase-qa](https://github.com/zakisserious/codebase-qa) <br> <img src="https://img.shields.io/github/stars/zakisserious/codebase-qa?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/codebase-qa?style=flat"/> | Local AI assistant to chat with any GitHub repo (RAG + ReAct agents) |
-| [pathfinder](https://github.com/zakisserious/pathfinder) <br> <img src="https://img.shields.io/github/stars/zakisserious/pathfinder?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/pathfinder?style=flat"/> | Interactive pathfinding visualizer with 9 algorithms |
-| [Artists-Evolution-Data](https://github.com/zakisserious/Artists-Evolution-Data) <br> <img src="https://img.shields.io/github/stars/zakisserious/Artists-Evolution-Data?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/Artists-Evolution-Data?style=flat"/> | Trace an artist's breakout era through interactive data viz |
-| [fyp](https://github.com/zakisserious/fyp) <br> <img src="https://img.shields.io/github/stars/zakisserious/fyp?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/fyp?style=flat"/> | Final year project |
-
-</details>
-
----
-
-<details>
+<details open>
 
 <summary><h2 style="display:inline-block"><code>~/toolbox</code> — My Toolbox</h2></summary>
 
@@ -101,6 +61,40 @@ A fully local AI assistant powered by RAG and ReAct agents. Ask anything about a
 <p>
 <img src="https://skillicons.dev/icons?i=docker,aws,linux,git"/>
 </p>
+
+</details>
+
+---
+
+<details>
+
+<summary><h2 style="display:inline-block"><code>~/focus</code> — What I'm Building</h2></summary>
+
+**codebase-qa** — chat with any GitHub repository using natural language.
+
+A fully local AI assistant powered by RAG and ReAct agents. Ask anything about a codebase and get answers that point to the actual files.
+
+| Capability | What it does |
+| :--------- | :----------- |
+| AST-aware indexing | Understands code structure, not just text |
+| Ollama support | Runs entirely on local LLMs |
+| Semantic retrieval | Finds the most relevant code fast |
+| Fully local | Nothing ever leaves your machine |
+
+</details>
+
+---
+
+<details>
+
+<summary><h2 style="display:inline-block"><code>~/projects</code> — Featured Projects</h2></summary>
+
+| Project | What it does |
+| :------ | :----------- |
+| [codebase-qa](https://github.com/zakisserious/codebase-qa) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/codebase-qa?style=flat"/> | Local AI assistant to chat with any GitHub repo (RAG + ReAct agents) |
+| [pathfinder](https://github.com/zakisserious/pathfinder) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/pathfinder?style=flat"/> | Interactive pathfinding visualizer with 9 algorithms |
+| [Artists-Evolution-Data](https://github.com/zakisserious/Artists-Evolution-Data) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/Artists-Evolution-Data?style=flat"/> | Trace an artist's breakout era through interactive data viz |
+| [fyp](https://github.com/zakisserious/fyp) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/fyp?style=flat"/> | Final year project |
 
 </details>
 
