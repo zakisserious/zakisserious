@@ -1,66 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Hi, I'm Zak — Full-Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Hi, I'm Zakaria — Full-Stack Developer">
   <defs>
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00ff9f">
-        <animate attributeName="stop-color" values="#00ff9f;#00e5ff;#00ff9f" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00ff9f;#00e5ff;#00ff9f" dur="7s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#00e5ff">
-        <animate attributeName="stop-color" values="#00e5ff;#00ff9f;#00e5ff" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#00ff9f;#00e5ff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ff9f">
+        <animate attributeName="stop-color" values="#00ff9f;#00e5ff;#00ff9f" dur="7s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.55">
-      <stop offset="0%" stop-color="#00ff9f" stop-opacity="0.22"/>
+    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="blobA">
+      <stop offset="0%" stop-color="#00ff9f" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#00ff9f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobC">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
     </pattern>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <mask id="nameMask" maskUnits="userSpaceOnUse" x="150" y="150" width="700" height="130">
+      <text x="500" y="238" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="70" font-weight="700" fill="#ffffff">Hi, I'm Zakaria 👋</text>
+    </mask>
   </defs>
 
-  <rect width="900" height="300" fill="#0d1117"/>
-  <rect width="900" height="300" fill="url(#grid)"/>
+  <rect width="1000" height="380" fill="#0d1117"/>
+  <rect width="1000" height="380" fill="url(#grid)"/>
 
-  <ellipse cx="450" cy="140" rx="380" ry="130" fill="url(#glow)">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  <ellipse cx="220" cy="90" rx="320" ry="170" fill="url(#blobA)" opacity="0.20">
+    <animate attributeName="cx" values="220;320;180;220" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="90;70;120;90" dur="16s" repeatCount="indefinite"/>
   </ellipse>
+  <ellipse cx="820" cy="300" rx="300" ry="160" fill="url(#blobB)" opacity="0.18">
+    <animate attributeName="cx" values="820;720;860;820" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="300;320;270;300" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="520" cy="200" rx="260" ry="150" fill="url(#blobC)" opacity="0.14">
+    <animate attributeName="cx" values="520;600;440;520" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200;240;170;200" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g stroke="#00ff9f" stroke-width="1" opacity="0.16">
+    <line x1="120" y1="70" x2="330" y2="45"/>
+    <line x1="330" y1="45" x2="620" y2="60"/>
+    <line x1="620" y1="60" x2="880" y2="35"/>
+    <line x1="120" y1="70" x2="160" y2="300"/>
+    <line x1="880" y1="35" x2="840" y2="290"/>
+  </g>
 
   <g fill="#00ff9f">
     <circle cx="120" cy="70" r="3">
-      <animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="760" cy="90" r="2.5">
-      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="0.6s"/>
+    <circle cx="330" cy="45" r="2.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" repeatCount="indefinite" begin="0.4s"/>
     </circle>
-    <circle cx="200" cy="230" r="2">
-      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+    <circle cx="620" cy="60" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite" begin="1.1s"/>
     </circle>
-    <circle cx="680" cy="220" r="3">
-      <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite" begin="0.9s"/>
+    <circle cx="880" cy="35" r="3">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.6s" repeatCount="indefinite" begin="0.7s"/>
     </circle>
-    <circle cx="90" cy="150" r="2.5">
-      <animate attributeName="opacity" values="0;1;0" dur="3.8s" repeatCount="indefinite" begin="1.8s"/>
+    <circle cx="160" cy="300" r="2.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite" begin="1.6s"/>
     </circle>
-    <circle cx="830" cy="180" r="2">
-      <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
+    <circle cx="840" cy="290" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.3s" repeatCount="indefinite" begin="2.2s"/>
     </circle>
-    <circle cx="430" cy="40" r="2">
-      <animate attributeName="opacity" values="0;1;0" dur="4.2s" repeatCount="indefinite" begin="2.1s"/>
+    <circle cx="70" cy="180" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite" begin="0.9s"/>
     </circle>
-    <circle cx="560" cy="255" r="2.5">
-      <animate attributeName="opacity" values="0;1;0" dur="3.6s" repeatCount="indefinite" begin="1.5s"/>
+    <circle cx="940" cy="200" r="2.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" repeatCount="indefinite" begin="1.9s"/>
     </circle>
   </g>
 
-  <text x="40" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#3fb950" opacity="0.85">$ whoami</text>
+  <rect x="60" y="26" width="880" height="130" rx="12" fill="#0d1117" opacity="0.92" stroke="#21262d" stroke-width="1.5"/>
+  <line x1="60" y1="52" x2="940" y2="52" stroke="#21262d" stroke-width="1.5"/>
+  <circle cx="82" cy="39" r="6" fill="#ff5f56"/>
+  <circle cx="101" cy="39" r="6" fill="#ffbd2e"/>
+  <circle cx="120" cy="39" r="6" fill="#27c93f"/>
+  <text x="500" y="45" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b949e">zakaria@portfolio: ~</text>
 
-  <text x="40" y="160" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="68" font-weight="700" fill="url(#titleGrad)">Hi, I'm Zak</text>
-
-  <text x="42" y="205" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#8b949e">full-stack developer · AI · web · devtools</text>
-
-  <text x="40" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#00ff9f" opacity="0.9">$ always shipping</text>
-  <rect x="232" y="241" width="10" height="17" fill="#00ff9f">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  <text x="80" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#3fb950" opacity="0">
+    $ whoami
+    <set attributeName="opacity" to="1" begin="0.3s"/>
+  </text>
+  <text x="80" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#e6edf3" opacity="0">
+    zakaria — full-stack developer, always shipping
+    <set attributeName="opacity" to="1" begin="1.2s"/>
+  </text>
+  <text x="80" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#3fb950" opacity="0">
+    $ cat ~/status
+    <set attributeName="opacity" to="1" begin="2.3s"/>
+  </text>
+  <text x="80" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#00ff9f" opacity="0">
+    ONLINE · always shipping
+    <set attributeName="opacity" to="1" begin="3.3s"/>
+  </text>
+  <rect x="310" y="134" width="10" height="15" fill="#00ff9f">
+    <set attributeName="opacity" to="1" begin="3.3s"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite" begin="3.3s"/>
   </rect>
+
+  <text x="500" y="238" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="70" font-weight="700" fill="#00ff9f" opacity="0.28" filter="url(#softGlow)">Hi, I'm Zakaria 👋</text>
+  <text x="500" y="238" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="70" font-weight="700" fill="url(#titleGrad)">Hi, I'm Zakaria 👋</text>
+  <rect x="-240" y="168" width="220" height="130" fill="url(#shineGrad)" mask="url(#nameMask)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;1440,0" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="500" y="292" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#8b949e">full-stack developer · AI · web · devtools</text>
+
+  <text x="60" y="350" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#3fb950" opacity="0.7">~/status: ONLINE</text>
+  <text x="940" y="350" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8b949e" opacity="0.6">v2.0.26</text>
 </svg>
