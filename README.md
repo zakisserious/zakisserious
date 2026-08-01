@@ -1,24 +1,6 @@
 <div align="center">
 
-```text
-┌───────────────────────────────────────┐
-│ ███████╗ █████╗ ██╗  ██╗               │
-│ ╚══███╔╝██╔══██╗██║ ██╔╝               │
-│   ███╔╝ ███████║█████╔╝                │
-│  ███╔╝  ██╔══██║██╔═██╗                │
-│ ███████╗██║  ██║██║  ██╗               │
-│ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝               │
-└───────────────────────────────────────┘
-$ sudo init portfolio --theme=retro
-$ loading modules...            [ OK ]
-$ compiling animations...       [ OK ]
-$ initializing terminal...      [ OK ]
-$ ready_
-```
-
-# Hi, I'm Zak
-
-### Building AI-powered developer tools, beautiful web apps, and software that actually ships.
+<img src="header.svg" alt="Hi, I'm Zak — Full-Stack Developer" width="100%"/>
 
 <p>
   <a href="https://zakisserious.github.io">
@@ -32,107 +14,55 @@ $ ready_
   </a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=00FF9F&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;AI+Engineer;Building+Developer+Tools;Local+LLMs+%7C+RAG+%7C+Agents;Always+Shipping." />
+<p>
+  <img src="https://img.shields.io/github/followers/zakisserious?style=for-the-badge&logo=github&color=00ff9f&logoColor=white" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/zakisserious?style=for-the-badge&logo=github&color=00ff9f&logoColor=white" alt="stars"/>
+  <img src="https://komarev.com/ghpvc/?username=zakisserious&style=for-the-badge&color=00ff9f" alt="profile views"/>
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00FF9F&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;AI+Engineer;Building+Developer+Tools;Local+LLMs+%7C+RAG+%7C+Agents;Always+Shipping." />
 
 </div>
 
 ---
 
-<details open>
+<details>
 
-<summary><h2 style="display:inline-block"><code>~/about</code> — About Me</h2></summary>
-
-```text
-$ whoami
-zak — full-stack developer from Kenya.
-
-$ cat ~/profile.json
-```
-
-```ts
-const zak = {
-    location: "Kenya",
-    role: "Full-Stack Developer",
-
-    interests: [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "Data Visualization",
-        "Blockchain",
-        "Open Source"
-    ],
-
-    currentlyBuilding: "codebase-qa",
-
-    philosophy: "Build things people actually use."
-}
-```
-
-</details>
-
----
-
-<details open>
-
-<summary><h2 style="display:inline-block"><code>~/focus</code> — Current Focus</h2></summary>
-
-```text
-$ cat ~/focus
-```
+<summary><h2 style="display:inline-block"><code>~/focus</code> — What I'm Building</h2></summary>
 
 **codebase-qa** — chat with any GitHub repository using natural language.
 
-A completely local AI coding assistant powered by RAG and ReAct agents.
+A fully local AI assistant powered by RAG and ReAct agents. Ask anything about a codebase and get answers that point to the actual files.
 
 | Capability | What it does |
 | :--------- | :----------- |
-| AST-aware indexing | Indexes code structure, not just text |
-| Ollama support | Runs entirely with local LLMs |
-| Semantic retrieval | Pulls the most relevant code fast |
-| Deep analysis mode | Multi-step reasoning over the repo |
-| Real citations | Every answer points to source files |
+| AST-aware indexing | Understands code structure, not just text |
+| Ollama support | Runs entirely on local LLMs |
+| Semantic retrieval | Finds the most relevant code fast |
 | Fully local | Nothing ever leaves your machine |
-
-**Example session**
-
-```text
-$ codebase-qa "where is authentication handled?"
-
-  src/auth/auth.py  ✓
-    Authentication is implemented with OAuth2 + JWT.
-    Refresh tokens are rotated on every exchange.
-```
 
 </details>
 
 ---
 
-<details open>
+<details>
 
 <summary><h2 style="display:inline-block"><code>~/projects</code> — Featured Projects</h2></summary>
 
-```text
-$ ls ~/projects
-```
-
-| Project | What it does | Stack |
-| :------ | :----------- | :---- |
-| [codebase-qa](https://github.com/zakisserious/codebase-qa) | Local AI assistant to chat with any GitHub repo (RAG + ReAct agents) | Python, LangChain, Ollama, ChromaDB |
-| [pathfinder](https://github.com/zakisserious/pathfinder) | Interactive pathfinding visualizer with 9 algorithms | React, Vite, Tailwind CSS |
-| [Artists-Evolution-Data](https://github.com/zakisserious/Artists-Evolution-Data) | Trace an artist's breakout era through interactive data viz | React, Python, Data Viz |
-| [fyp](https://github.com/zakisserious/fyp) | Final year project | Python |
+| Project | What it does |
+| :------ | :----------- |
+| [codebase-qa](https://github.com/zakisserious/codebase-qa) <br> <img src="https://img.shields.io/github/stars/zakisserious/codebase-qa?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/codebase-qa?style=flat"/> | Local AI assistant to chat with any GitHub repo (RAG + ReAct agents) |
+| [pathfinder](https://github.com/zakisserious/pathfinder) <br> <img src="https://img.shields.io/github/stars/zakisserious/pathfinder?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/pathfinder?style=flat"/> | Interactive pathfinding visualizer with 9 algorithms |
+| [Artists-Evolution-Data](https://github.com/zakisserious/Artists-Evolution-Data) <br> <img src="https://img.shields.io/github/stars/zakisserious/Artists-Evolution-Data?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/Artists-Evolution-Data?style=flat"/> | Trace an artist's breakout era through interactive data viz |
+| [fyp](https://github.com/zakisserious/fyp) <br> <img src="https://img.shields.io/github/stars/zakisserious/fyp?style=flat&label=stars&color=00ff9f"/> <img src="https://img.shields.io/github/languages/top/zakisserious/fyp?style=flat"/> | Final year project |
 
 </details>
 
 ---
 
-<details open>
+<details>
 
-<summary><h2 style="display:inline-block"><code>~/toolbox</code> — Tech Stack</h2></summary>
-
-```text
-$ pip install --upgrade skills brain
-```
+<summary><h2 style="display:inline-block"><code>~/toolbox</code> — My Toolbox</h2></summary>
 
 **Languages**
 
@@ -176,32 +106,11 @@ $ pip install --upgrade skills brain
 
 ---
 
-<details open>
+<details>
 
-<summary><h2 style="display:inline-block"><code>~/sys_status</code> — System Status</h2></summary>
+<summary><h2 style="display:inline-block"><code>~/achievements</code> — Some Things I'm Proud Of</h2></summary>
 
-```text
-$ systemctl status zak
-```
-
-```text
-┌─ zak@system ──────────────────────────────────────┐
-│ ● status     ONLINE · always shipping             │
-│ ● role       full-stack developer                 │
-│ ● stack      TS · Python · React · Node · AWS     │
-│ ● focus      codebase-qa (RAG + ReAct agents)     │
-│ ● uptime     no plans to slow down                │
-│ ● deploy     npm run deploy --production          │
-└───────────────────────────────────────────────────┘
-```
-
-</details>
-
----
-
-<details open>
-
-<summary><h2 style="display:inline-block"><code>~/achievements</code> — Terminal Log</h2></summary>
+Quick wins from the terminal log:
 
 ```text
 $ git log --oneline --achievements
@@ -216,36 +125,33 @@ $ git log --oneline --achievements
 
 ---
 
-<details open>
+<details>
 
-<summary><h2 style="display:inline-block"><code>~/roadmap</code> — Learning & Philosophy</h2></summary>
+<summary><h2 style="display:inline-block"><code>~/roadmap</code> — Currently Learning</h2></summary>
 
-```text
-$ cat ~/roadmap
+Always learning — here's what's on the plate:
 
-learning: AI Agents · Rust · Distributed Systems
-          Code Intelligence · Compiler Tooling
-```
+| Topic | Progress | Why |
+| :---- | :------- | :--- |
+| AI Agents | ▓▓▓▓░░░░░░ | autonomous, tool-using systems |
+| Rust | ▓▓░░░░░░░░ | fast, safe systems programming |
+| Distributed Systems | ▓▓▓░░░░░░░ | software that scales |
+| Code Intelligence | ▓▓▓▓░░░░░░ | understanding code programmatically |
+| Compiler Tooling | ▓▓░░░░░░░░ | the machinery behind languages |
 
-```text
-$ ./philosophy
-> Software should feel effortless.
-> Fast.
-> Beautiful.
-> Useful.
-```
+**Philosophy**
+
+> Software should feel effortless. Fast. Beautiful. Useful.
 
 </details>
 
 ---
 
+<details>
+
+<summary><h2 style="display:inline-block"><code>~/contact</code> — Let's Connect</h2></summary>
+
 <div align="center">
-
-## <code>~/contact</code> — Let's Connect
-
-```text
-$ get_in_touch
-```
 
 <a href="https://zakisserious.github.io">
 <img src="https://img.shields.io/badge/Portfolio-Visit-00ff9f?style=for-the-badge&logo=vercel&logoColor=white"/>
@@ -259,15 +165,14 @@ $ get_in_touch
 <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
-<br><br>
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=zakisserious&style=for-the-badge&color=00ff9f"/>
+</details>
 
-```text
-$ shutdown -h now
-SYSTEM: ONLINE · always shipping_
-```
+---
 
-*"Always shipping."*
+<div align="center">
+
+<sub>*SYSTEM: ONLINE · always shipping_*</sub>
 
 </div>
