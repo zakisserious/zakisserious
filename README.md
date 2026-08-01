@@ -94,7 +94,6 @@ A fully local AI assistant powered by RAG and ReAct agents. Ask anything about a
 | [codebase-qa](https://github.com/zakisserious/codebase-qa) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/codebase-qa?style=flat"/> | Local AI assistant to chat with any GitHub repo (RAG + ReAct agents) |
 | [pathfinder](https://github.com/zakisserious/pathfinder) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/pathfinder?style=flat"/> | Interactive pathfinding visualizer with 9 algorithms |
 | [Artists-Evolution-Data](https://github.com/zakisserious/Artists-Evolution-Data) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/Artists-Evolution-Data?style=flat"/> | Trace an artist's breakout era through interactive data viz |
-| [fyp](https://github.com/zakisserious/fyp) <br> <img src="https://img.shields.io/github/languages/top/zakisserious/fyp?style=flat"/> | Final year project |
 
 </details>
 
