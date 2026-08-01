@@ -1,4 +1,4 @@
-````markdown
+
 <div align="center">
 
 # Hi, I'm Zakaria 👋
@@ -244,4 +244,4 @@ Authentication is implemented...
 *"Always shipping."*
 
 </div>
-````
+
